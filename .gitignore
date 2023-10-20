@@ -1,4 +1,4 @@
 node_modules/
 packages/**/node_modules
 
-lerna-debub.log
+lerna-debug.log
