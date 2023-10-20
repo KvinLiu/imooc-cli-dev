@@ -1,0 +1,11 @@
+36 error Error: Command failed with exit code 1: git add -- packages/core/package.json packages/utils/package.json lerna.json package-lock.json
+36 error The following paths are ignored by one of your .gitignore files:
+36 error package-lock.json
+36 error hint: Use -f if you really want to add them.
+36 error hint: Turn this message off by running
+36 error hint: "git config advice.addIgnoredFile false"
+36 error     at makeError (/Users/kevinl/Dropbox/myProjects/GeekTime/webArchitect/imooc-cli-dev/node_modules/execa/lib/error.js:59:11)
+36 error     at handlePromise (/Users/kevinl/Dropbox/myProjects/GeekTime/webArchitect/imooc-cli-dev/node_modules/execa/index.js:114:26)
+36 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+36 error     at async VersionCommand.updatePackageVersions (/Users/kevinl/Dropbox/myProjects/GeekTime/webArchitect/imooc-cli-dev/node_modules/lerna/dist/index.js:8331:11)
+36 error     at async Promise.all (index 0)
