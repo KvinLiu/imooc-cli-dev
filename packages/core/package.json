@@ -1,0 +1,25 @@
+{
+  "name": "@klimooc-npm-cli-dev/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "npm"
+  ],
+  "author": "Kevin Liu <kevin07liu@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
